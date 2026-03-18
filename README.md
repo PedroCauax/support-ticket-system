@@ -7,13 +7,23 @@ API REST para gerenciamento de chamados (Help Desk)
 - TypeScript
 - Prisma ORM
 - MySQL
-- JWT
+- JWT Authentication
 
 ## 🔐 Funcionalidades
 - Registro e login de usuários
 - Autenticação com JWT
 - Criação de tickets
 - Rotas protegidas
+
+## 📌 Endpoints
+
+### Auth
+- POST /auth/register
+- POST /auth/login
+
+### Tickets
+- POST /tickets
+- GET /tickets
 
 ## ⚙️ Como rodar
 
